@@ -33,8 +33,8 @@ It automatically login to your account. Just input your email and password into 
 
 Script - auto-login.py
 
-Improvements to be made
+Improvements to be made:-
 Currently all the features are independent and needs to be combined in one script. So, if you want to make any improvement then start with here. Its not that difficult but I prefer not to deal with this project.
 
-Future Possibility
+Future Possibility:-
 This project can pinch out good cash if implemented correctly. Once all the features get joined, you can then host the bot on raspbery pie server and it will keep on running forever. Maybe you can even make a bot to download art from other websites and uploading on your account automatically.
