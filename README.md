@@ -14,7 +14,7 @@ pip install bs4
 Features of the project:-
 
 1) Auto-commenting:-
-This bot can automatically comment and promote the artworks of people on discover page of society6.com. Also, the bot can give random comment so it looks genuine. It takes the comments from society6comments.txt
+This bot can automatically comment and promote the artworks of people on discover page of society6.com. Also, the bot can give random comment so it looks genuine.
 
 2) Account Scrapper:-
 It can scrap thousands of account on society6 platform which you can then follow later.
