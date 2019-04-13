@@ -16,22 +16,14 @@ Features of the project:-
 1) Auto-commenting:-
 This bot can automatically comment and promote the artworks of people on discover page of society6.com. Also, the bot can give random comment so it looks genuine. It takes the comments from society6comments.txt
 
-Script - society6-promotion.py
-
 2) Account Scrapper:-
 It can scrap thousands of account on society6 platform which you can then follow later.
-
-Script - account-scrapper.py
 
 3) Auto follow:-
 All the accounts which are scrapped can then be followed.
 
-Script - auto-follow.py
-
 4) Auto login:-
 It automatically login to your account. Just input your email and password into the script.
-
-Script - auto-login.py
 
 Improvements to be made:-
 Currently all the features are independent and needs to be combined in one script. So, if you want to make any improvement then start with here. Its not that difficult but I prefer not to deal with this project.
