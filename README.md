@@ -14,7 +14,7 @@ pip install bs4
 Features of the project:-
 
 1) Auto-commenting:-
-This bot can automatically comment and promote the artworks of people on discover page of society6.com. Also, the bot can give random comment so it looks genuine.
+This bot can automatically comment and promote the artworks of people on discover page of society6.com. Also, the bot can give random comment so it looks genuine. It takes the comments from society6comments.txt
 
 Script - society6-promotion.py
 
@@ -23,7 +23,18 @@ It can scrap thousands of account on society6 platform which you can then follow
 
 Script - account-scrapper.py
 
-3) Auto-follow:-
+3) Auto follow:-
 All the accounts which are scrapped can then be followed.
 
 Script - auto-follow.py
+
+4) Auto login:-
+It automatically login to your account. Just input your email and password into the script.
+
+Script - auto-login.py
+
+Improvements to be made
+Currently all the features are independent and needs to be combined in one script. So, if you want to make any improvement then start with here. Its not that difficult but I prefer not to deal with this project.
+
+Future Possibility
+This project can pinch out good cash if implemented correctly. Once all the features get joined, you can then host the bot on raspbery pie server and it will keep on running forever. Maybe you can even make a bot to download art from other websites and uploading on your account automatically.
