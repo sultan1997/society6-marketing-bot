@@ -3,21 +3,6 @@ import time
 import random
 import os
 
-
-'''type_comments = [] 
-with open (os.path.join(os.path.dirname(os.path.abspath(__file__)), 'society6comments.txt'), 'rt') as in_file:
- for line in in_file: 
-   type_comments.append(line.rstrip('\n'))''' 
-   
-
-driver = webdriver.Chrome()
-driver.get("https://society6.com/login?done=/")
-username = driver.find_element_by_id('email')
-username.send_keys("exp4money@gmail.com")
-password = driver.find_element_by_id('password')
-password.send_keys("sultan1997")
-driver.find_element_by_name('login').click()
-
 driver.find_element_by_link_text('My Society').click()
 driver.find_element_by_link_text('Discover').click()
 
@@ -31,10 +16,10 @@ submit_comments = driver.find_elements_by_xpath("//button[text()='Comment']")
 #print(len(submit_comments))
 #print(len(promote_button))
 
-type_comments = ['Amazing Art!', 'Great Work!', 'Awesome!', 'Cool', 'Promoted :)', 'looks so cool :O', 'Like the way it feel']
+type_comments = ['Amazing Art!', 'Great Work!', 'Awesome!', 'Cool', 'Promoted :)', 'looks so cool :O', 'Like the way it feel'] #Edit the comments here
 print(type_comments)
 
-for i in range(50):
+for i in range(50): #change the number of time the bot comments on the page
       promote_button[i].click()
       print("liked")
       time.sleep(2)
